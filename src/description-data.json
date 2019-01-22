@@ -1,0 +1,127 @@
+[
+    { 
+         "course": "Botulinum Toxin",
+         "description": [
+             "Anatomical structure of the face. Potential structure features in the structure.",
+             "Botulinum toxins. Principle of action, features, dosage.",
+             "Botulinum toxins in targeted correction of problem areas.",
+             "Usage Botulinum toxins in aesthetic full face modeling.",
+             "Analysis and elimination of periorbital wrinkles using botulotoxins: frown lines, forehead, crow's feet.",
+             "Botulinum toxins: complex approach of working with the lower third of the face.",
+             "Botox.",
+             "Disport.",
+             "Differences of botulinum toxins, which one to choose and for which patient to achieve the most favorable result.",
+             "On-label use.",
+             "Off-label use"
+         ]
+     },{
+         "course": "Chemical Peels",
+         "description": [
+             "Anatomy and what you need to know when working with chemical peelings.",
+             "Peeling classification.",
+             "Modern scientific research in this field.",
+             "Indications and contraindications of different patients to peelings.",
+             "Analysis of peelings, their composition: base, acids, Ph and Pk.",
+             "Effects of chemical peelings, the depth of their penetration into the skin.",
+             "Superficial peelings.",
+             "Medial peelings.",
+             "Deep peelings.",
+             "Sunscreeners. Their combination with the procedures of peelings.",
+             "Retinol peelings: the features of working with them. TCA, Cross-peel.",
+             "Phenol - basic properties, features. Phenol instead of plastic surgery, non-surgical blepharoplasty. Indications, complications.",
+             "Pre and post-peeling care. What and when is better to choose?",
+             "Chemical or physical peelings.",
+             "Review of peelings which are on the market, advantages and disadvantages. What, when and whom is better to choose.",
+             "Complications after peeling and working with them.",
+             "Live demonstration.",
+             " Testing on models."
+         ]
+     },{
+         "course": "Contour Plastic. Upper Third of Face",
+         "description": [
+             "Anatomy of upper face.",
+             "Fillers on the basis of hyaluronic acid for correction of defects of upper face.",
+             "Indications for corrections with fillers.",
+             "Detailed analysis of areas for injection.",
+             "Methods of injection.",
+             "Correction of asymmetry of upper face.",
+             "Aesthetic correction.",
+             "Live demonstration.",
+             "Hand position training.",
+             "Testing with models."            
+         ]
+     },{
+         "course": "Contour Plastic. Middle Third of Face",
+         "description": [
+             "Area anatomy of mid face.",
+             "Clinical features of correction in this area. Why and how we can achieve visible anti age results only with help of correction of this part of the face.",
+             "Aesthetic correction of mid face.",
+             "Surgeon’s vision: correction of mid face without surgical treatment.",
+             "Where surgery is necessary.",
+             "3D facial sculpting.",
+             "Accurate appointment of mid face correction to different patients.",
+             "Non-surgical rhinoplasty.",
+             "Complications, which can occur at work.",
+             "Live demonstration.",
+             "Hand position training.",
+             "Testing with models."            
+         ]
+     },{
+         "course": "Contour Plastic. Lower Third of Face",
+         "description": [
+             "Anatomy of the lower third.",
+             "Diagnosis of ageing is possible in case of availability or absence of ptosis of the lower third of the face. That is why it is important at comprehensive anti-age approach.",
+             "Lifting fillers when working with the lower third of the face.",
+             "Contour of the lower jaw and its correction.",
+             "Neck.",
+             "Aesthetic correction in this area.",
+             "Correction of asymmetry.",
+             "Working with the lips. Various techniques and methods of fillers injection: traditional and newest. Volume.",
+             "Working with the chin.",
+             "Author's methods of fillers injections.",
+             "What complications may occur when working with the lower third of the face.",
+             "Live demonstration.",
+             "Hand position training.",
+             "Testing with models."            
+         ]
+     },{
+         "course": "Intimate Plastic",
+         "description": [
+             "Anatomy.",
+             "Indications for fillers usage.",
+             "Gynecological procedures before aesthetic correction.",
+             "Usage of fillers based on hyaluronic acid for aesthetic correction of the intimate area.",
+             "Point G.",
+             "Working with the volume. Senior patients.",
+             "Young patients and intimate correction after childbirth.",
+             "How fillers affect the improvement of the quality of sexual life.",
+             "Medical indications for correction using fillers based on hyaluronic acid for men.",
+             "Moisturizing the mucoid.",
+             "Live demonstration."          
+         ]
+     },{
+         "course": "Thread methods",
+         "description": [
+             "Old age is diagnosed primarily by the presence or absence of ptosis of the lower third. Why is this important in a comprehensive anti-age approach.",
+             "Contour of the lower jaw and its correction.",
+             "Neck.",
+             "Aesthetic correction.",
+             "Correction of asymmetry.",
+             "Working with the lips. Various techniques and methods: traditional and latest.",
+             "Working with the chin.",
+             "Complications.",
+             "Live demonstration.",
+             "Hand position training.",
+             "Testing with models."         
+         ]
+     },{
+         "course": "Complications in Aesthetic Medicine. After:",
+         "description": [
+             "Injectables: Fillers, Botulinum toxins, lipolytic.",
+             "Threads.",
+             "Mesotherapy.",
+             "Energy- based devices.",
+             "How to prevent complications and treat them if they appeared."     
+         ]
+     }
+ ]

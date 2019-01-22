@@ -1,0 +1,51 @@
+[
+    { 
+        "id": "igor",
+        "name": "Igor Rudenko",
+        "about": "dermatologyst",
+        "description": "International speaker within Aesthetic and Dermatology fields. Co-founder and owner of Aesthetic Consilium Groups. Board Member of IMCAS Worldwide. He is an active member of aesthetic dermatological professional community through memberships and leadership roles.",
+        "image": "https://ac-clinic.com/i/doctor/c/00002.jpg"
+    },{
+        "id": "raj",
+        "name": "Raj Acquilla",
+        "about": "dermatologyst",
+        "description": "Expert in medical aesthetics, facial contouring and non-surgical facelift, Dermatological surgery including facial skin cancer and undergraduate/postgraduate clinical education. Board Member of IMCAS Worldwide.",
+        "image": "https://yuvamedispa.co.uk/wp-content/uploads/2018/09/Dr-Raj-home-crop.jpg"
+    },{ 
+        "id": "igor",
+        "name": "Igor Rudenko",
+        "about": "dermatologyst",
+        "description": "International speaker within Aesthetic and Dermatology fields. Co-founder and owner of Aesthetic Consilium Groups. Board Member of IMCAS Worldwide. He is an active member of aesthetic dermatological professional community through memberships and leadership roles.",
+        "image": "https://ac-clinic.com/i/doctor/c/00002.jpg"
+    },{
+        "id": "raj",
+        "name": "Raj Acquilla",
+        "about": "dermatologyst",
+        "description": "Expert in medical aesthetics, facial contouring and non-surgical facelift, Dermatological surgery including facial skin cancer and undergraduate/postgraduate clinical education. Board Member of IMCAS Worldwide.",
+        "image": "https://yuvamedispa.co.uk/wp-content/uploads/2018/09/Dr-Raj-home-crop.jpg"
+    },{ 
+        "id": "igor",
+        "name": "Igor Rudenko",
+        "about": "dermatologyst",
+        "description": "International speaker within Aesthetic and Dermatology fields. Co-founder and owner of Aesthetic Consilium Groups. Board Member of IMCAS Worldwide. He is an active member of aesthetic dermatological professional community through memberships and leadership roles.",
+        "image": "https://ac-clinic.com/i/doctor/c/00002.jpg"
+    },{
+        "id": "raj",
+        "name": "Raj Acquilla",
+        "about": "dermatologyst",
+        "description": "Expert in medical aesthetics, facial contouring and non-surgical facelift, Dermatological surgery including facial skin cancer and undergraduate/postgraduate clinical education. Board Member of IMCAS Worldwide.",
+        "image": "https://yuvamedispa.co.uk/wp-content/uploads/2018/09/Dr-Raj-home-crop.jpg"
+    },{ 
+        "id": "igor",
+        "name": "Igor Rudenko",
+        "about": "dermatologyst",
+        "description": "International speaker within Aesthetic and Dermatology fields. Co-founder and owner of Aesthetic Consilium Groups. Board Member of IMCAS Worldwide. He is an active member of aesthetic dermatological professional community through memberships and leadership roles.",
+        "image": "https://ac-clinic.com/i/doctor/c/00002.jpg"
+    },{
+        "id": "raj",
+        "name": "Raj Acquilla",
+        "about": "dermatologyst",
+        "description": "Expert in medical aesthetics, facial contouring and non-surgical facelift, Dermatological surgery including facial skin cancer and undergraduate/postgraduate clinical education. Board Member of IMCAS Worldwide.",
+        "image": "https://yuvamedispa.co.uk/wp-content/uploads/2018/09/Dr-Raj-home-crop.jpg"
+    }   
+]

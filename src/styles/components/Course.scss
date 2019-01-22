@@ -1,0 +1,17 @@
+.description-container {
+    display: inline;
+}
+
+.description-button-container {
+    text-align: right;
+}
+
+.description-button {
+    width: 20px;
+    height: 20px;
+    background: $title-blue;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: white;
+}

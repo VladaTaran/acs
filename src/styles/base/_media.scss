@@ -1,0 +1,129 @@
+@media screen and (max-width: 540px) {
+
+    //HOME
+        .nav-menu {
+            padding-top: 0;
+        }
+    
+        .home {
+            max-width: 540px;
+        }
+    
+        .home__background,
+        .offer-background,
+        .courses__background {
+            height: 200px;
+            background-attachment: inherit;
+        }
+    
+        .home__about,
+        .home__text {
+            margin: 20px;
+        }
+    
+        .ac-title,
+        .home__background-text,
+        .offer-background > span:first-child {
+            font-size: $l-font-size;
+        }
+    
+        .advantages {
+            margin-bottom: 40px;
+        }
+        .advantages-title,
+        .contacts-info {
+            display: block;
+            margin: 20px auto;
+        }
+        .home__icons,
+        .home__text,
+        .trainer-container {
+            display: block;
+        }
+    
+        .advantages-img {
+            max-height: 80px;
+        }
+    
+        .offer-background > span {
+            max-width: 140px;
+            font-size: $s-font-size;
+        }
+    
+    // FOOTER
+        .footer {
+            margin-top: $xl-size;
+            padding: 0 20px;
+        }
+    
+        .footer__title,
+        .footer__phone {
+            max-width: 100px;
+            font-size: 12px;
+        }
+    
+        .footer__sc-icon{
+            width:$xl-font-size;
+        }
+    
+    //COURSES
+        .home__background-title {
+            font-size: $xxl-font-size;
+        }
+    
+        .home__background-text {
+            max-width: 250px;
+            display: block;
+            margin: 0 auto;
+            padding-top: 18%;
+        }
+    
+        .courses-title{
+            font-size: $xl-font-size;
+        }
+    
+        .trainer-img {
+            margin: 20px auto;
+        }
+    
+        .carousel{
+            height: 200px;
+        }
+    
+    //CONTACTS
+    // .MuiPaper-root-9,
+    .card {
+        display: flex;
+        justify-content: center;
+        }
+        
+    }
+
+    @media screen and (min-width: 541px) and (max-width: 1000px) {
+        .home__background,
+        .offer-background,
+        .courses__background {
+            height: 400px;
+            background-attachment: inherit;
+        }
+    
+        .home__background-text {
+            padding-top: 25%;
+        }
+    
+        .home__about-article {
+            display: block;
+            margin: 30px;
+        }
+    
+        .trainer-container {
+            // display: block;
+            // margin: 30px auto; 
+        }
+    
+        .trainer-img {
+            margin: 20px auto;
+            // margin-right: 5px;
+        }
+    
+    }

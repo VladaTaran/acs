@@ -1,0 +1,52 @@
+.courses {
+    padding: $xl-size 0 0;
+}
+
+.courses__background {
+    background: $bg-img-courses no-repeat center center;
+    width: 100%;
+    height: 500px;  
+    background-attachment: fixed;
+    background-size: cover;  
+}
+
+.home__background-text {
+    color: $text-color;
+    font-size: $xxl-font-size;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20% 0 0;
+}
+
+.courses-title {
+    color: $bright-blue;
+    text-align: center;
+    font-weight: 400;
+    font-size: $l-size;
+    line-height: 1.2;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    margin-bottom: $m-size;
+}
+
+.slider {
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+.slider-control-centerleft,
+.slider-control-centerright {
+    display: none;
+}
+
+.slider-control-bottomcenter > ul > li > button {
+    outline: none;
+    font-size: 40px;
+}
+
+.crs-pg {
+    background: $crs-bg-img-offer no-repeat center;
+    background-size: cover;
+    
+}

@@ -6,12 +6,14 @@ class TextAnimation extends React.Component {
         return (
             <div className="courses__background">
                 <Fade top>
-                    <h1 className="home__background-title">
-                        Learn from doing
-                    </h1>
-                    <p className="home__background-text">
-                        Learn something new every day with Aesthetic Consilium School
-                    </p>
+                    <div className="courses__background-text">
+                        <h1 className="home__background-title">
+                            Learn from doing
+                        </h1>
+                        <p className="home__background-text">
+                            Learn something new every day with Aesthetic Consilium School
+                        </p>
+                    </div>
                 </Fade>
             </div>
         )

@@ -27,6 +27,7 @@
             font-size: $l-font-size;
         }
     
+    
         .advantages {
             margin-bottom: 40px;
         }
@@ -71,11 +72,14 @@
             font-size: $xxl-font-size;
         }
     
+        .courses__background-text {
+            top: 20%;
+        }
+
         .home__background-text {
             max-width: 250px;
             display: block;
             margin: 0 auto;
-            padding-top: 18%;
         }
     
         .courses-title{
@@ -106,10 +110,6 @@
             background-attachment: inherit;
         }
     
-        .home__background-text {
-            padding-top: 25%;
-        }
-    
         .home__about-article {
             display: block;
             margin: 30px;
@@ -127,7 +127,7 @@
     
     }
 
-    @media screen and (min-width: 1000px) and (max-width: 2000px) {
+    @media screen and (min-width: 1500px) and (max-width: 2000px) {
         header {
             height: 8rem;
         }
@@ -148,7 +148,8 @@
         
         .home__background {
             height: 70;
-            background-size: contain;
+            background-attachment: inherit; 
+            background-size: cover;
         }
 
         .home__about {

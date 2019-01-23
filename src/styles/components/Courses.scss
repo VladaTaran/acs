@@ -10,12 +10,21 @@
     background-size: cover;  
 }
 
+.courses__background-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30%;
+
+}
+
 .home__background-text {
     color: $text-color;
     font-size: $xxl-font-size;
     text-align: center;
     text-transform: uppercase;
-    padding: 20% 0 0;
 }
 
 .courses-title {

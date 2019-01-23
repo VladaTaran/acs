@@ -59,3 +59,8 @@
     background-size: cover;
     
 }
+
+.slick-next,
+.slick-prev {
+     display: none !important;
+}

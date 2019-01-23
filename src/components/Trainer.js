@@ -11,15 +11,19 @@ class Trainer extends React.Component {
             description: this.props.trainer.description
         })
     );
-
     // showDescription = () => {
-    //     if (this.state.description === '') {
-    //         this.setState({ description: this.props.trainer.description, isShow: true})
-    //         console.log('full');
+    //     this.setState({
+    //         description: this.props.trainer.description
+    //     });
+    //     if (this.state.isShow === false) {
+    //         this.setState({ isShow: true})
     //     } else {
-    //         this.setState({description: '', isShow: false})
-    //         console.log('empty');
+    //         this.setState({ isShow: true})
     //     }
+    //     const description = ( 
+    //         <p className="trainer__description-about">{this.state.description}</p>
+    //     );
+    //     return description;
     // }
 
     render() {
@@ -38,6 +42,7 @@ class Trainer extends React.Component {
                     <span className="trainer-about">
                         {this.props.trainer.about}
                     </span>
+                    {/* {this.description} */}
                     {this.state.description && <p className="trainer__description-about">{this.state.description}</p>}
                 </div>
             </div>

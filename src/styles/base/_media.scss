@@ -5,8 +5,7 @@
             padding-top: 0;
         }
     
-        .home,
-        .carousel {
+        .home {
             max-width: 540px;
         }
     
@@ -109,7 +108,7 @@
     
     }
 
-    @media screen and (min-width: 541px) and (max-width: 1000px) {
+    @media screen and (min-width: 541px) and (max-width: 1499px) {
         .home__background,
         .offer-background,
         .courses__background {
@@ -121,15 +120,14 @@
             display: block;
             margin: 30px;
         }
-    
-        // .trainer-container {
-        //     // display: block;
-        //     // margin: 30px auto; 
-        // }
+        
+        .carousel {
+            display: block;
+            margin: 0 auto;
+        }
     
         .trainer-img {
             margin: 20px auto;
-            // margin-right: 5px;
         }
     
     }

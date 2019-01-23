@@ -27,6 +27,7 @@ import Card from '@material-ui/core/Card';
     '@media (max-width: 540px)': {
       display: 'block',
       margin: '20px auto',
+      width: '97%',
     },
   },  
   container: {

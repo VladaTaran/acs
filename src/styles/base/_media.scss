@@ -91,12 +91,11 @@
         }
     
     //CONTACTS
-    // .MuiPaper-root-9,
-    .card {
-        display: flex;
-        justify-content: center;
+        .card {
+            display: flex;
+            justify-content: center;
         }
-        
+    
     }
 
     @media screen and (min-width: 541px) and (max-width: 1000px) {
@@ -116,14 +115,101 @@
             margin: 30px;
         }
     
-        .trainer-container {
-            // display: block;
-            // margin: 30px auto; 
-        }
+        // .trainer-container {
+        //     // display: block;
+        //     // margin: 30px auto; 
+        // }
     
         .trainer-img {
             margin: 20px auto;
             // margin-right: 5px;
         }
     
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 2000px) {
+        header {
+            height: 8rem;
+        }
+
+        .nav-logo {
+            width: 7rem;
+            margin-left: 20px;
+        }
+
+        .nav-menu {
+            margin-right: 20px;
+        }
+
+        .nav-link {
+            font-size: 16px;
+            margin-right: .6rem;
+        }
+        
+        .home__background {
+            height: 70;
+            background-size: contain;
+        }
+
+        .home__about {
+            max-width: 1300px;
+        }
+
+        .ac-title,
+        .courses-title {
+            font-size: 2.0rem;
+        }
+
+        .home__about-article,
+        .home__text-article {
+            font-size: $xl-font-size;
+        }
+
+        .home__icons {
+            max-width: 1300px;
+        }
+
+        .advantages-img {
+            max-height: 130px;
+        }
+
+        .advantages-title {
+            max-width: 150px;
+            margin: 20px 40px;
+        }
+
+        .offer-background {
+            padding-left: 60px;
+        }
+
+        .offer-background>span:first-child {
+            font-size: 18px;
+        }
+
+        .offer-background>span:last-child {
+            font-size: 14px;
+        }
+
+        .offer-button {
+            width: 150px;
+            height: 50px;
+            font-size: 16px;
+            padding-top: 15px;
+        }
+
+        .home__text {
+            max-width: 1300px;
+        }
+        .footer__title,
+        .footer__phone {
+            font-size: 16px;
+        }
+
+        .footer__sc-icon {
+            width: 2rem;
+        }
+
+        .trainer-container {
+            max-width: 1300px;
+        }
     }

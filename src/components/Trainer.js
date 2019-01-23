@@ -2,7 +2,8 @@ import React from 'react';
 
 class Trainer extends React.Component {
     state = {
-        description: ''
+        description: '',
+        isShow: false
     }
 
     showDescription = () => (
@@ -10,6 +11,16 @@ class Trainer extends React.Component {
             description: this.props.trainer.description
         })
     );
+
+    // showDescription = () => {
+    //     if (this.state.description === '') {
+    //         this.setState({ description: this.props.trainer.description, isShow: true})
+    //         console.log('full');
+    //     } else {
+    //         this.setState({description: '', isShow: false})
+    //         console.log('empty');
+    //     }
+    // }
 
     render() {
         return (

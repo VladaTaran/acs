@@ -52,7 +52,7 @@ function CourseList (props) {
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
             )
-        })};
+        })}
     </div>
   );
 }

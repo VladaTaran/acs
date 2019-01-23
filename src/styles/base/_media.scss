@@ -5,7 +5,8 @@
             padding-top: 0;
         }
     
-        .home {
+        .home,
+        .carousel {
             max-width: 540px;
         }
     
@@ -90,8 +91,14 @@
             margin: 20px auto;
         }
     
-        .carousel{
-            height: 200px;
+        // .carousel{
+        //     height: 200px;
+        // }
+        .slick-slide img {
+            display: block;
+            margin: 0 auto;
+            max-width: 400px;
+            height: auto;
         }
     
     //CONTACTS
@@ -152,7 +159,8 @@
             background-size: cover;
         }
 
-        .home__about {
+        .home__about,
+        .carousel {
             max-width: 1300px;
         }
 

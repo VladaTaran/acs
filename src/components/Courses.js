@@ -22,7 +22,7 @@ const Courses = (props) => (
             </div>
         </div>
         <div className="carousel">
-        <Testimonials />
+            <Testimonials />
         </div>     
         <Footer /> 
     </div>

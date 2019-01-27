@@ -21,10 +21,12 @@ const Home = () => (
                 paid in the market of aesthetic services. In addition after the training we provide 24/7 support to
                 our students, help in solving complex clinical cases and interesting aesthetic tasks. We have invited the world known trainers, doctors with fundamental ideas in anti-age medicine
                 who will share with you all the knowledge and "secrets" during 10 days. You will learn the latest
-                anti-age and aesthetic correction in practice, with your own hands. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                anti-age and aesthetic correction in practice, with your own hands. Leading international experts in the field of cosmetology regularly share their professional 
+                knowledge, practical experience, and the nuances of the profession through personalized training. 
+                Aesthetic Consilium School regularly conducts workshops in all major areas of esthetic medicine 
+                for a different initial level of training. Each workshop is an unbiased personal expert opinion, 
+                it is a knowledge base gained over years of experience.
+            </p>
         </div>
         <div className="home__icons">
             <Advantages 
@@ -53,18 +55,16 @@ const Home = () => (
         </div>
         <div className="home__text">
             <p className="home__text-article">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <span className = 'home__text-color'>80%</span> of students return to our advanced training courses.<br/>
+                <span className = 'home__text-color'>50%</span> of our students successfully work in the field of cosmetology. <br/>
+                <span className = 'home__text-color'>20%</span> opened their cosmetology rooms.<br/>
+                <span className = 'home__text-color'>5%</span> opened their clinics.<br/>
             </p>
-            <p className="home__text-article">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p className="home__text-article"> 
+                We have already graduated <span className = 'home__text-color'>500</span> students.<br/>
+                The school has <span className = 'home__text-color'>100</span> speakers 20% of them are European Experts.<br/>
+                Every year we find new advanced speakers for you.<br/>
+                Aesthetic Consilium School is <span className = 'home__text-color'>Your</span> way to success.
             </p>
         </div>
         <Footer />

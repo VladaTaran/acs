@@ -44,6 +44,11 @@
     text-align: justify;
 }
 
+.home__text-color {
+    color: $bright-blue;
+    font-weight: bold;
+}
+
 .home__icons {
     display: flex;
     justify-content: space-around;
@@ -89,7 +94,7 @@
     color: $text-color;
     font-size: $l-font-size;
     line-height: 1.2;
-    text-align: justify;
     padding: $m-size;
     line-height: 2;
+    width: 50%;
 }

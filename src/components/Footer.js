@@ -20,8 +20,8 @@ const Footer = () => (
             </a>
         </div>
         <div className="footer__phone">
-            +38066 999 11 11 <br/>
-            +12066 555 00 00
+            +38099 26 36 883<br/>
+            +38063 63 55 495
         </div>
     </footer>
 );

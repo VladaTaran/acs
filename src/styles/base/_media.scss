@@ -27,7 +27,11 @@
             font-size: $l-font-size;
         }
     
-    
+        .home__text-article {
+            width: 100%;
+            text-align: justify;
+        }
+
         .advantages {
             margin-bottom: 40px;
         }

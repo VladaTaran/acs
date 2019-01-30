@@ -78,11 +78,20 @@ class ContactsForm extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-
-    let newUser = [this.state];
-    fetch('/send-form-mail', {
+    let restBody = {
+      body:"",
+      mail:"anak@diceus.com",
+      senderName:"name"
+    };
+    // let newUser = [this.state];
+    fetch('http://spring.eu-central-1.elasticbeanstalk.com/send-form-mail', {
       method: 'POST',
-      body: JSON.stringify(newUser),
+      headers: {
+        'Access-Control-Allow-Methods': 'POST, OPTIONS',
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(restBody),
     });
     this.setState({
         name: '',

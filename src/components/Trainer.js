@@ -6,13 +6,8 @@ class Trainer extends React.Component {
         isShow: false,
         class: 'hide',
         style: 'trainer__description'
-    }
+    };
 
-    // showDescription = () => (
-    //     this.setState({
-    //         description: this.props.trainer.description
-    //     })
-    // );
     showDescription = () => {
         this.setState({
             description: this.props.trainer.description
@@ -28,18 +23,6 @@ class Trainer extends React.Component {
                 style: 'trainer__description'
             })
         }
-        console.log(this.state.isShow)
-        // const y = (
-        //     <p className="trainer__description-about">{this.state.description}</p>
-        // ) 
-        // return y;
-        // if (this.state.isShow === false) {
-        //     this.setState({ isShow: true})
-        //     console.log(this.state.isShow );
-        //     return  <p className="trainer__description-about">{this.state.description}</p>
-        // } else {
-        //     this.setState({ description:'', isShow: false})
-        // }
     }
 
     render() {
@@ -51,9 +34,7 @@ class Trainer extends React.Component {
             >
                 <div 
                      className = {this.state.style}
-                // className="trainer__description"
                     onClick = {this.showDescription}
-                    //  onMouseOver={this.showDescription}
                 >
                     <span className="trainer-name">
                         {this.props.trainer.name}
@@ -61,12 +42,8 @@ class Trainer extends React.Component {
                     <span className="trainer-about">
                         {this.props.trainer.about}
                     </span>
-                    {/* {this.description} */}
                     {this.state.description && 
-                        <p 
-                            className = {this.state.class}
-                        // className="trainer__description-about "
-                        >
+                        <p className = {this.state.class}>
                             {this.state.description}
                         </p>
                     }

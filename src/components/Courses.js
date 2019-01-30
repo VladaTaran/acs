@@ -3,7 +3,7 @@ import TextAnimation from './TextAnimation';
 import CourseList from './CourseList';
 import Trainers from './Trainers';
 import OfferButton from './OfferButton';
-import Testimonials from './Testimonials';
+// import Testimonials from './Testimonials';
 import Footer from './Footer';
 
 const Courses = (props) => (
@@ -22,7 +22,7 @@ const Courses = (props) => (
             </div>
         </div>
         <div className="carousel">
-            <Testimonials />
+            {/* <Testimonials /> */}
         </div>     
         <Footer /> 
     </div>

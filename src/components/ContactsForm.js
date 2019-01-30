@@ -35,6 +35,9 @@ import Card from '@material-ui/core/Card';
     flexWrap: 'wrap',
     flexDirection: 'column',
     padding: '20px 0',
+    '@media (max-width: 540px)': {
+      paddingLeft: 10,
+    }
   },
   textField: {
     maxWidth: 400,
@@ -129,6 +132,9 @@ class ContactsForm extends React.Component {
             errorMessages={['this field is required', 'phone is not valid']}
           />
           <TextField
+            multiline={true}
+            rows={4}
+            rowsMax={8}
             id="standard-uncontrolled"
             label="Type your message"
             value={this.state.message}

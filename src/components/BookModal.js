@@ -8,7 +8,6 @@ const BookModal = (props) =>  (
         closeOnOverlayClick={true}
         onClose = {props.onCloseModal}
     >
-
     <ContactsForm />
     </Modal>
 ); 

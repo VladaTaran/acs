@@ -11,7 +11,12 @@ import Footer from './Footer';
 const Home = () => (
     <div className="home">
         <div className="home__background">
-            <Fade top />
+            <Fade top>
+                <h1 className="home__background-title">
+                    Aesthetic Consilium <br/>
+                    School
+                </h1>
+            </Fade>
         </div>
         <div className="home__about">
             <h2 className="ac-title">Aesthetic Consilium School<br/>
@@ -49,7 +54,7 @@ const Home = () => (
         <div className="offer">
             <div className="offer-background hm-pg">
                 <span>Limited Time Offer:</span>
-                <span>booked cours till Fabruary 15 for early bird price</span>
+                <span>book course till Fabruary 15 for early bird price</span>
                 <OfferButton />
             </div>
         </div>

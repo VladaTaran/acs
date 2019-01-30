@@ -1,51 +1,87 @@
 [
     { 
-        "id": "igor",
-        "name": "Igor Rudenko",
-        "about": "dermatologyst",
+        "id": "IhorRudenko",
+        "name": "Ihor Rudenko",
+        "about": "dermatovenerologist",
         "description": "International speaker within Aesthetic and Dermatology fields. Co-founder and owner of Aesthetic Consilium Groups. Board Member of IMCAS Worldwide. He is an active member of aesthetic dermatological professional community through memberships and leadership roles.",
         "image": "https://ac-clinic.com/i/doctor/c/00002.jpg"
     },{
-        "id": "raj",
-        "name": "Raj Acquilla",
-        "about": "dermatologyst",
-        "description": "Expert in medical aesthetics, facial contouring and non-surgical facelift, Dermatological surgery including facial skin cancer and undergraduate/postgraduate clinical education. Board Member of IMCAS Worldwide.",
-        "image": "https://yuvamedispa.co.uk/wp-content/uploads/2018/09/Dr-Raj-home-crop.jpg"
+        "id": "SergiyProkudin",
+        "name": "Sergiy Prokudin",
+        "about": "plastic, aesthetic surgeon",
+        "description": "A chief specialist plastic surgeon in the Southern Federal District, scientific director of the European Academy of Anatomy. Honorary SIDE, ASSECE, BAAPS, EAFPS member. Member of the AESTHETIC MEDICINE journal editorial board.",
+        "image": "https://infoplastika.ru/images/cms/headers/hirurgi/moskva/prokudin.jpg"
     },{ 
-        "id": "igor",
-        "name": "Igor Rudenko",
-        "about": "dermatologyst",
-        "description": "International speaker within Aesthetic and Dermatology fields. Co-founder and owner of Aesthetic Consilium Groups. Board Member of IMCAS Worldwide. He is an active member of aesthetic dermatological professional community through memberships and leadership roles.",
-        "image": "https://ac-clinic.com/i/doctor/c/00002.jpg"
+        "id": "MarynaAnfylova",
+        "name": "Maryna Anfylova",
+        "about": "dermatovenerologist",
+        "description": "Candidate of Medical Sciences, Associate Professor of the Department of Skin and Venereal Diseases at the Vinnytsia National Medical University named after M.I. Pirohov.",
+        "image": "https://estet-portal.com/estet/img/profile/main/anfilova-marina-1524044391.jpg"
     },{
-        "id": "raj",
-        "name": "Raj Acquilla",
+        "id": "InhaVoloshynaAndrashchko",
+        "name": "Inha Voloshyna-Andrashko",
         "about": "dermatologyst",
-        "description": "Expert in medical aesthetics, facial contouring and non-surgical facelift, Dermatological surgery including facial skin cancer and undergraduate/postgraduate clinical education. Board Member of IMCAS Worldwide.",
-        "image": "https://yuvamedispa.co.uk/wp-content/uploads/2018/09/Dr-Raj-home-crop.jpg"
+        "description": "Director of Asclepius and Estimate clinics in Uzhhorod, Ukraine. Co-owner of Dermarevolta clinic in Bratislava, Slovakia.",
+        "image": "https://estet-portal.com/images/article/photos/small/govoryat-lidery-mneniya-otzyvy-o-EP411507099690.jpg"
     },{ 
-        "id": "igor",
-        "name": "Igor Rudenko",
+        "id": "OlhaChalenko",
+        "name": "Olha Chalenko",
         "about": "dermatologyst",
-        "description": "International speaker within Aesthetic and Dermatology fields. Co-founder and owner of Aesthetic Consilium Groups. Board Member of IMCAS Worldwide. He is an active member of aesthetic dermatological professional community through memberships and leadership roles.",
-        "image": "https://ac-clinic.com/i/doctor/c/00002.jpg"
-    },{
-        "id": "raj",
-        "name": "Raj Acquilla",
-        "about": "dermatologyst",
-        "description": "Expert in medical aesthetics, facial contouring and non-surgical facelift, Dermatological surgery including facial skin cancer and undergraduate/postgraduate clinical education. Board Member of IMCAS Worldwide.",
-        "image": "https://yuvamedispa.co.uk/wp-content/uploads/2018/09/Dr-Raj-home-crop.jpg"
+        "description": "A dermatologist of the highest category, cosmetologist, international trainer, speaker of international congresses.",
+        "image": "https://aesthetic-consilium.com/i/trainer/t/00039.jpg"
     },{ 
-        "id": "igor",
-        "name": "Igor Rudenko",
+        "id": "AnnaFunykova",
+        "name": "Anna Funykova",
         "about": "dermatologyst",
-        "description": "International speaker within Aesthetic and Dermatology fields. Co-founder and owner of Aesthetic Consilium Groups. Board Member of IMCAS Worldwide. He is an active member of aesthetic dermatological professional community through memberships and leadership roles.",
-        "image": "https://ac-clinic.com/i/doctor/c/00002.jpg"
+        "description": "Member of the Ukrainian Association of Doctors Dermatology and Cosmetology and EADV, founder and leading specialist at Academy of Health Training and Specialists of the Health and Beauty Academy Training Center.",
+        "image": "https://scontent.fiev7-2.fna.fbcdn.net/v/t1.0-9/45070740_1510976079035672_2321243512101666816_n.jpg?_nc_cat=110&_nc_ht=scontent.fiev7-2.fna&oh=bd9e90eb1cb9f43cab05be0904bc7e60&oe=5D013A86"
     },{
-        "id": "raj",
-        "name": "Raj Acquilla",
-        "about": "dermatologyst",
-        "description": "Expert in medical aesthetics, facial contouring and non-surgical facelift, Dermatological surgery including facial skin cancer and undergraduate/postgraduate clinical education. Board Member of IMCAS Worldwide.",
-        "image": "https://yuvamedispa.co.uk/wp-content/uploads/2018/09/Dr-Raj-home-crop.jpg"
-    }   
+        "id": "OksanaKarapetian",
+        "name": "Oksana Karapetian",
+        "about": "dermatologist",
+        "description": "Member of the International Association of Aesthetic Cosmetology and Medicine.",
+        "image": "https://ac-clinic.com/i/doctor/c/00034.jpg"
+    },{
+        "id": "YanaVinnychuk",
+        "name": "Yana Vinnychuk",
+        "about": "cosmetologist",
+        "description": "Aesthetic medicine physician specializes in injection, hardware procedures, classical cosmetic cosmetology, surgical procedures, thread techniques, non-surgical rhinoplasty.",
+        "image": "https://ac-clinic.com/i/doctor/c/00029.jpg"
+    },{
+        "id": "KuzmaHobzey",
+        "name": "Kuzma Hobzey",
+        "about": "dermatovenerologist",
+        "description": "Trichologist at the multi-purpose Euroderm Dermatological Clinic (clinical base of the Institute of Psoriasis and Chronic Dermatosis).",
+        "image": "https://medlife.pro/images/5c/f1/5cf1913e0a903ebeb2c79fd2a769e76f.jpg"
+    },{
+        "id": "ValeriiaRabizo",
+        "name": "Valeriia Rabizo",
+        "about": "gynecologist, dermatologist",
+        "description": "a doctor gynecologist, dermatologist, cosmetologist, EADV member. 10 years of experience in gynecology and 16 years of experience as a cosmetologist.",
+        "image": "http://regenera.pro/images/valeriay_rabizo3.jpg"
+    },{
+        "id": "ElviraChovhan",
+        "name": "Elvira Chovhan",
+        "about": "dermatologist",
+        "description": "Specialist in injection and classical cosmetology, leading specialist at Lady Elegance, Vinnytsia Office of Laser, Instrumental and Manual Cosmetology.",
+        "image": "https://epil.vn.ua/images/special/chovgan.jpg"
+    },{
+        "id": "SerhiyDerbak",
+        "name": "Serhiy Derbak",
+        "about": "plastic surgeon",
+        "description": "Member of the All-Ukrainian Association of Plastic Reconstructive and Aesthetic Surgeons, the Ukrainian Society of Aesthetic Medicine, the Club of Plastic Surgeons of Ukraine.",
+        "image": "https://scontent.fiev7-2.fna.fbcdn.net/v/t1.0-9/12342854_917556554960158_2554393215614006872_n.jpg?_nc_cat=109&_nc_ht=scontent.fiev7-2.fna&oh=31544e8d17743b9b98040f3ceb435c47&oe=5CF0714B"
+    },{
+        "id": "TatianaShevchuk",
+        "name": "Tatiana Shevchuk",
+        "about": "gynecologist",
+        "description": "Head of GRACE COSMOGYN Clinic, Ph.D., top-level doctor, member of the European Society of Aesthetic Gynecology, member of the Association of Laser Medicine and Cosmetology of Ukraine.",
+        "image": "http://gynecologymeeting.expert/wp-content/uploads/2016/12/%D0%A8%D0%B5%D0%B2%D1%87%D1%83%D0%BA.jpg"
+    },{
+        "id": "AntonLeonov",
+        "name": "Anton Leonov",
+        "about": "dermatovenerologist",
+        "description": "A cosmetologist. Allergan, an expert international company, Ukrainian aesthetic speaker, head physician at Clinic Profi+.",
+        "image": "https://scontent.fiev7-1.fna.fbcdn.net/v/t1.0-9/25289411_1467059060080107_4044124131614778980_n.jpg?_nc_cat=103&_nc_ht=scontent.fiev7-1.fna&oh=432db3a485c5b915bbe4bc667a2e6ea9&oe=5D00CC90"
+    } 
 ]

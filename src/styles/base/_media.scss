@@ -27,6 +27,10 @@
             font-size: $l-font-size;
         }
     
+        .ac-title {
+            margin: 2.4rem 0 1.9rem;
+        }
+
         .home__text-article {
             width: 100%;
             text-align: justify;
@@ -85,18 +89,19 @@
             display: block;
             margin: 0 auto;
         }
-    
+
         .courses-title{
             font-size: $xl-font-size;
         }
-    
+
+        // .trainer-name {
+        //     width: 80%;
+        // }
+
         .trainer-img {
             margin: 20px auto;
         }
     
-        // .carousel{
-        //     height: 200px;
-        // }
         .slick-slide img {
             display: block;
             margin: 0 auto;
@@ -129,7 +134,11 @@
             display: block;
             margin: 0 auto;
         }
-    
+
+        // .trainer-name {
+        //     width: 80%;
+        // }
+
         .trainer-img {
             margin: 20px auto;
         }

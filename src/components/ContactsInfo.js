@@ -66,15 +66,15 @@ function ContactsInfo(props) {
             <div className={classes.contactsItem}>
                 <StayCurrentPortrait className={classes.icon}/>
                 <Typography component="p">
-                    +380111 111 11 11
+                    +38099 26 36 883
                     <br />
-                    +380111 111 11 11
+                    +38063 63 55 495
                 </Typography>
             </div>
             <div className={classes.contactsItem}>
                 <Mail className={classes.icon}/>
                 <Typography component="p">
-                    aesthetic-consilium@mail.com
+                    aesthetic.c.school@gmail.com
                 </Typography>
             </div>
         </div>

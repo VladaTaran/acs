@@ -17,7 +17,7 @@ const Courses = (props) => (
         <div className="offer">
             <div className="offer-background crs-pg">
                 <span>Limited Time Offer:</span>
-                <span>booked cours till Fabruary 15 for early bird price</span>
+                <span>book course till Fabruary 15 for early bird price</span>
                 <OfferButton />
             </div>
         </div>

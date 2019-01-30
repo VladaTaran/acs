@@ -1,4 +1,5 @@
 import React from 'react';
+import fetch from 'isomorphic-fetch';
 import { withStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
@@ -67,7 +68,7 @@ class ContactsForm extends React.Component {
     email: '',
     phone: '',
     message: '',
-   
+    isResponse: false
   };
 
   handleChange = (props) => event => {
@@ -79,11 +80,16 @@ class ContactsForm extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     let restBody = {
-      body:"",
+      body:JSON.stringify({
+            name: this.state.name,
+            email: this.state.email,
+            phone: this.state.phone,
+            message: this.state.message,
+          }),
       mail:"anak@diceus.com",
       senderName:"name"
     };
-    // let newUser = [this.state];
+    //TODO export to the service
     fetch('http://spring.eu-central-1.elasticbeanstalk.com/send-form-mail', {
       method: 'POST',
       headers: {
@@ -92,14 +98,16 @@ class ContactsForm extends React.Component {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(restBody),
-    });
-    this.setState({
+    })
+    .then(response => (this.setState(()=>({
         name: '',
         email: '',
         phone: '',
         message: '',
-    });
-
+        isResponse: true
+      }))
+    ))
+    .catch(reason => console.error(reason));
   }
 
   render() {
@@ -107,7 +115,6 @@ class ContactsForm extends React.Component {
 
     return (
       <Card className={classes.card} > 
-
         <ValidatorForm
           method = "post"
           className={classes.container}
@@ -115,11 +122,13 @@ class ContactsForm extends React.Component {
           onSubmit={this.handleSubmit}
           onError={errors => console.log(errors)}
         >
+        {this.state.isResponse && <div style={{color: "#303f9f"}}>Successfully sent!</div>}
           <TextValidator
             label="Name"
             className={classes.textField}
             onChange={this.handleChange('name')}
             name="name"
+            type="text"
             value={this.state.name}
           />
           <TextValidator

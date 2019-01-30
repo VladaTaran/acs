@@ -11,12 +11,12 @@ import Footer from './Footer';
 const Home = () => (
     <div className="home">
         <div className="home__background">
-            <Fade top>
+            {/* <Fade top>
                 <h1 className="home__background-title">
                     Aesthetic Consilium <br/>
                     School
                 </h1>
-            </Fade>
+            </Fade> */}
         </div>
         <div className="home__about">
             <h2 className="ac-title">Aesthetic Consilium School<br/>

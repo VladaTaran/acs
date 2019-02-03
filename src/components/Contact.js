@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from './Footer';
 import ContactsInfo from './ContactsInfo';
 import ContactsForm from './ContactsForm';
+// import ContactsForm from './ContactsFormTwin';
 
 const Contact = () => (
     <div>

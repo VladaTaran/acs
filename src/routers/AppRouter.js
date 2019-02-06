@@ -1,14 +1,14 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Header from '../components/Header';
 // import NotFoundPage from '../components/NotFoundPage';
 import Home from '../components/Home';
 import Courses from '../components/Courses';
 import Contact from '../components/Contact';
 
-
 const AppRouter = () => (
-    <BrowserRouter>
+    // <BrowserRouter>
+    <HashRouter>
         <div>
             <Header />
             <Switch>
@@ -18,7 +18,10 @@ const AppRouter = () => (
                 {/* <Route component={NotFoundPage} /> */}
             </Switch>
         </div>   
-    </BrowserRouter>
+    {/* </BrowserRouter> */}
+    </HashRouter>
 );
 
 export default AppRouter;
+
+// export default createServer;
